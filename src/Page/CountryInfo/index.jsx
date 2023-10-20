@@ -44,7 +44,7 @@ export default function CountryInfo() {
                             <h3 className='font-semibold mb-1'>Sub Region: <span className='font-normal'>{country.subregion}</span></h3>
                             <h3 className='font-semibold mb-10'>Capital: <span className='font-normal'>{country.capital}</span></h3>
                         </div>
-                        <div className='md:mt-[5.2rem] md:ml-[5rem]'>
+                        <div className='md:mt-[5.2rem] md:ml-[3rem]'>
                             <h3 className='font-semibold mb-1'>Top Level Domain: <span className='font-normal'>{country.topLevelDomain}</span></h3>
                             <h3 className='font-semibold mb-1'>Currencies: <span className='font-normal'>{country.currencies && country.currencies.length > 0 ? country.currencies[0].name : 'N/A'}</span></h3>
                             <h3 className='font-semibold mb-10'>Languages: <span className='font-normal'>{country.languages.map((language, index) => (
