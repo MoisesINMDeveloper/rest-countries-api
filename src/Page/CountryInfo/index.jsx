@@ -44,14 +44,14 @@ export default function CountryInfo() {
                             <h3 className='font-semibold mb-1'>Sub Region: <span className='font-normal'>{country.subregion}</span></h3>
                             <h3 className='font-semibold mb-10'>Capital: <span className='font-normal'>{country.capital}</span></h3>
                         </div>
-                        <div className='md:mt-[5.2rem] md:ml-[3rem] md:mr-[4rem]'>
+                        <div className='md:mt-[5.2rem] md:ml-[3rem]'>
                             <h3 className='font-semibold mb-1'>Top Level Domain: <span className='font-normal'>{country.topLevelDomain}</span></h3>
                             <h3 className='font-semibold mb-1'>Currencies: <span className='font-normal'>{country.currencies && country.currencies.length > 0 ? country.currencies[0].name : 'N/A'}</span></h3>
                             <h3 className='font-semibold mb-10'>Languages: <span className='font-normal'>{country.languages.map((language, index) => (
                                 <span key={index}>{language.name} </span>
                             ))}</span></h3>
                         </div>
-                        <div className='flex-col items-start mb-10 md:flex md:flex-row'>
+                        <div className='flex-col items-start mb-10 md:flex md:flex-row md:mr-[4rem]'>
                             <h2 className='font-semibold text-lg dark:text-VeryLightGray mb-2 md:mt-[0.3rem] md:block md:w-[11rem] md:absolute'>{borderCountries.length > 0 ? "Border Countries:" : "No Border Countries"}</h2>
                             <ul className='flex flex-wrap md:ml-[10rem]'>
                                 {borderCountries.map((borderCountry, index) => (
