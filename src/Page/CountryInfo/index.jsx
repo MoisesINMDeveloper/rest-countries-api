@@ -35,7 +35,7 @@ export default function CountryInfo() {
                     <img className='md:w-[26rem]' src={country.flags.png} alt={country.name} />
                 </div>
                 <div className='dark:text-VeryLightGray md:flex md:ml-[24rem]'>
-                    <div className=' md:ml-[6rem] md:mr-[5rem] md:flex md:flex-wrap md:items-center]'>
+                    <div className=' md:ml-[6rem] md:mr-[4rem] md:flex md:flex-wrap md:items-center]'>
                         <div>
                             <h1 className='font-bold text-xl mt-[2rem] mb-6'>{country.name}</h1>
                             <h3 className='font-semibold mb-1'>Native Name: <span className='font-normal'>{country.nativeName}</span></h3>
