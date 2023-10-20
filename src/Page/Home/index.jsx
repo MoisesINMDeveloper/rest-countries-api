@@ -17,7 +17,7 @@ export default function Home() {
         : countries;
     return (
         <main className={`w-[90vw] mt-5 mx-auto ${darkMode ? 'dark' : ''}`}>
-            <div className='md:flex md:items-center md:mt-[2rem] md:mx-[auto]'>
+            <div className='md:flex md:items-center md:mt-[2rem] md:w-[90vw]'>
                 <label className={`flex items-center h-14 w-[90vw] md:w-[25rem] mx-auto md:mr-[30.6rem] rounded-md dark:bg-DarkBlue ${darkMode ? 'dark:bg-DarkBlue' : 'bg-White'}`} htmlFor="">
                     <button className={`mx-3 px-2 h-12 dark:bg-DarkBlue ${darkMode ? 'dark:bg-DarkBlue' : 'bg-White'}`} onClick={toggleDarkMode}>
                         <img className="w-5 h-5 md:w-14 hidden dark:block " src={SearchIcon} alt="Search icon" />
