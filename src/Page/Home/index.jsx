@@ -87,7 +87,7 @@ export default function Home() {
                     )}
                 </div>
                 <div
-                    className={`${isRegionOpen ? "bg-[#ffffff] dark:bg-DarkBlue absolute w-[14rem] pl-[1.3rem] py-[1rem]" : "hidden"
+                    className={`${isRegionOpen ? "bg-[#ffffff] dark:bg-DarkBlue absolute w-[14rem] md:ml-[56.5rem] md:mt-[15rem] rounded-md pl-[1.3rem] py-[1rem]" : "hidden"
                         }`}
                 >
                     <ul>
